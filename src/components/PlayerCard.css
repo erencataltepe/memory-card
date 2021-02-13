@@ -1,0 +1,11 @@
+.player-card {
+  width: 120px;
+  margin: 10px;
+  padding: 5px;
+  transition: background-color 0.5s;
+  border-radius: 20%;
+}
+
+.player-card:hover {
+  background-color: rgba(0, 0, 0, 0.411);
+}

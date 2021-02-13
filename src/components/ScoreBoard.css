@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap");
+
+.score-board {
+  display: flex;
+  justify-content: center;
+}
+
+.score-info {
+  margin: 20px;
+  font-family: "Titillium Web", sans-serif;
+}

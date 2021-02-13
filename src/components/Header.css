@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
+
+h1 {
+  text-align: center;
+  font-family: "Alfa Slab One", cursive;
+}
+
+.info {
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+}
+
+span {
+  font-weight: 900;
+  color: red;
+}

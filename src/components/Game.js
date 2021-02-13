@@ -1,4 +1,5 @@
 import PlayerCard from "./PlayerCard";
+import "./Game.css";
 
 export default function Game(props) {
   const playerCards = props.players.map((player) => (
@@ -9,5 +10,5 @@ export default function Game(props) {
     />
   ));
 
-  return <div>{playerCards}</div>;
+  return <div className="players">{playerCards}</div>;
 }

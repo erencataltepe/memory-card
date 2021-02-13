@@ -3,6 +3,7 @@ import ScoreBoard from "./components/ScoreBoard";
 import Game from "./components/Game";
 import { useState, useEffect } from "react";
 import players from "./players";
+import "./App.css";
 
 function App() {
   const [currentScore, setCurrentScore] = useState(0);
@@ -82,7 +83,7 @@ function App() {
   }, [footballplayers]);
 
   return (
-    <div>
+    <div className="main">
       <Header />
       <ScoreBoard currentScore={currentScore} bestScore={bestScore} />
       <Game players={footballplayers} handleChangePlayer={handleChangePlayer} />
